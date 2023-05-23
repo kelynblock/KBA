@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+  .row {
+  width:  50px;
+  height: 50px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+</style>
+
+
+  
+</head>
+
+<body>
+    <!-- Load an icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <div class="navbar">
+        <a class="active" href="#"><i class="home"></i> Home</a>
+        <a href="#"><i class="bio"></i>Bio</a>
+        <a href="#"><i class="stats"></i>Stats</a>
+        <a href="#"><i class="user"></i>Login</a>
+    </div>
+
+    <h1 style="color: white;">HOME PAGE</h1>
+
+    <p>The select element defines a drop-down list:</p>
+
+    <form action="#">
+      <label>Choose one:</label>
+        <select name="Career">
+          <option value="HS">High School</option>
+          <option value="college">College</option>
+          <option value="Pro" selected>Pro</option>
+        </select>
+        <input type="submit">
+    </form>
+    <br/>
+    <br />
+
+    <table style="width:100%">
+      <tr>
+        <th>Country:</th>
+        <td>Bosnia</td>
+        <td>Swizterland</td>
+        <td>France</td>
+      </tr>
+      <tr>
+        <th>Team Name</th>
+        <td>Sloboda-Dita</td>
+        <td>BC Boncourt</td>
+        <td>Reims-Champagne</td>
+
+      </tr>
+      <tr>
+        <th>PPG</th>  
+        <td>18.6</td>
+        <td>20</td>
+        <td>16.6</td>
+      </tr>
+    </table>
+
+
+    <div>
+        <p> <b>Lorem</b> ipsum dolor sit amet consectetur adipisicing elit. Ut iusto alias voluptatum possimus! Reprehenderit et id culpa omnis quo consectetur modi cumque autem ab nihil rerum, nisi laboriosam nesciunt perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fuga, in, dolorum itaque iusto mollitia, adipisci consequuntur consequatur tempore quaerat illum optio. Voluptatem cumque temporibus iusto adipisci libero! Autem, tempore.</p>
+
+        <p> <b>Lorem</b> ipsum dolor sit amet consectetur adipisicing elit. Ut iusto alias voluptatum possimus! Reprehenderit et id culpa omnis quo consectetur modi cumque autem ab nihil rerum, nisi laboriosam nesciunt perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fuga, in, dolorum itaque iusto mollitia, adipisci consequuntur consequatur tempore quaerat illum optio. Voluptatem cumque temporibus iusto adipisci libero! Autem, tempore.</p>
+
+        <p> <b>Lorem</b> ipsum dolor sit amet consectetur adipisicing elit. Ut iusto alias voluptatum possimus! Reprehenderit et id culpa omnis quo consectetur modi cumque autem ab nihil rerum, nisi laboriosam nesciunt perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fuga, in, dolorum itaque iusto mollitia, adipisci consequuntur consequatur tempore quaerat illum optio. Voluptatem cumque temporibus iusto adipisci libero! Autem, tempore.</p>
+    </div>
+    
+    <div class="row" style="display: flex;">
+      <img src="https://s3.amazonaws.com/coachup_s3storage_production/app/public/media/0fd2b1c3109baa03337f59ad21719e8d11bfa7c8.jpg?1344222009"
+      height="350px", width= "400px">
+      <img src="https://s3.amazonaws.com/coachup_s3storage_production/app/public/media/0c9b745c894ed368cf2a121434d2a9d53975e6fb.jpg?1344222148"
+      height="350px", width="250px">
+      <img src="https://s3.amazonaws.com/coachup_s3storage_production/app/public/profile/2fe2bb588a9f6b3348e1959fb8f798fb0ee09f8e.jpg?1344129720"
+      height="350px", width="350px">
+    </div>
+        
+</body>
+
+</html>
+
